@@ -1,17 +1,17 @@
 class Maestro < Formula
   desc "Maestro CLI for installing and managing skills"
   homepage "https://github.com/kkaddal-bc/maestro"
-  version "0.2.1"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/kkaddal-bc/maestro/releases/download/v0.2.1/maestro-darwin-arm64.tar.gz"
-      sha256 "a30b5391ba26fff5558db51226aa7ba2a079b33e0c1141c5210f0bd42a3dd20d"
+      url "https://github.com/kkaddal-bc/maestro/releases/download/v0.3.0/maestro-darwin-arm64.tar.gz"
+      sha256 "d1a55e03220aaf176e18e506911256fcc6faf1fd46f123c3c34328bc1370e3a4"
     end
 
     on_intel do
-      url "https://github.com/kkaddal-bc/maestro/releases/download/v0.2.1/maestro-darwin-amd64.tar.gz"
-      sha256 "9b3b7262415fdeb7fad32afa042e32d5ef4aa72b4877f1d96355d044ccd1366c"
+      url "https://github.com/kkaddal-bc/maestro/releases/download/v0.3.0/maestro-darwin-amd64.tar.gz"
+      sha256 "69bb2f1f4668d1d128feba0c71cef4296a8bba9a6da59c1909b6a027359a73a1"
     end
   end
 
